@@ -6,12 +6,55 @@
 <title> Contacts</title>
 
 <head>
-      
+    <form action ="index.html" method="post">
+        <h1>Contact Information</h1>
+        
     
-<ol>
-    
-   <br> Stephanie Machen <br>
-    Mobile:(302) 803-0431 <br>
-    Email:stephanie.lmachen@aol.com <br>
+        
+        <legend><span class="number"></span><Your basic info</legend>
+         
+       <fieldset>
+        <label for="first name">First Name:</label>
+        <input type="text" id="First Name" first name="user_first name">
+        
+        <label for="last name">Last Name:</label>
+        <input type="text" id="Last Name" last name="user_last name">
+        </fieldset>
+       
+       
+        <fieldset>
+        <label for="Contact Phone Number">Contact Phone Number:</label>
+        <input type="contact phone number" id="contact phone number" 
+        name="user_contact phone number"  <br>  
 
-</ol>
+     
+ <label>Phone Number Type:</label>
+<input type="radio" id="_Landline" 
+value="_Landline" name="user_Phone number type">
+<label for="_Landline" class="dark">Landline</label>
+<input type="radio" id="Mobile" value="Mobile" name="user_phone number type">
+<label for="Mobile" class="dark">Mobile</label>
+</fieldset>					
+      <br> <label for="email">E-mail:</label><br>
+     <input type="email" id="mail" name="user_email"> <br>       
+    
+     <br><label>How did you hear about us:</label><br>
+        <select id="How did you hear about us" name="user_search">
+          <option value="search_engine">Search Engine</option>
+          <option value="social_media">Social Media</option>
+          <option value="search_recruiter">Recruiter</option>
+          </select><br>
+          <br><label>Interest for contacting:</label><br>
+          <input type="checkbox" id="training" value="interest_training" name="user_interest"
+        label class="light" for="training">Training</label><br>
+       <input type="checkbox" id="design" value="interest_design" name="user_interest">
+       <label class="light" for="design">Design</label><br>
+      <input type="checkbox" id="business" value="interest_business" name="user_interest">
+      <label class="light"  for="business">Business</label><br>
+
+      <br><label>Message:</label><br>
+      <textarea id="message" name="user_message"></textarea>
+
+      </form>
+      
+</html>
